@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Valida o status das URLs presentes em um texto",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "keywords": [],
+  "author": "Guilherme Gonçalves",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
